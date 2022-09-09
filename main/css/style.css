@@ -67,12 +67,12 @@ figure {
   color: #fff;
   background: #2c98f0; }
 
-#tak-hih-page {
+#colorlib-page {
   width: 100%;
   overflow: hidden;
   position: relative; }
 
-#tak-hih-aside {
+#colorlib-aside {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
@@ -85,7 +85,7 @@ figure {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    #tak-hih-aside {
+    #colorlib-aside {
       width: 300px;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
@@ -93,7 +93,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em; } }
-  #tak-hih-aside .cicak-img {
+  #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -102,36 +102,36 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-  #tak-hih-aside .position {
+  #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
     font-size: 12px;
     text-transform: uppercase; }
-  #tak-hih-aside #tak-hih-logo {
+  #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
-    #tak-hih-aside #tak-hih-logo a {
+    #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
       color: #000;
       padding-right: .3em; }
-  #tak-hih-aside #tak-hih-main-menu {
+  #colorlib-aside #colorlib-main-menu {
     display: block;
     width: 100%; }
-    #tak-hih-aside #tak-hih-main-menu .collapse {
+    #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
-    #tak-hih-aside #tak-hih-main-menu ul {
+    #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
       margin: 0;
       padding: 0; }
       @media screen and (max-width: 768px) {
-        #tak-hih-aside #tak-hih-main-menu ul {
+        #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
-      #tak-hih-aside #tak-hih-main-menu ul li {
+      #colorlib-aside #colorlib-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
@@ -139,7 +139,7 @@ figure {
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
-        #tak-hih-aside #tak-hih-main-menu ul li a {
+        #colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
           position: relative;
@@ -148,7 +148,7 @@ figure {
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
-          #tak-hih-aside #tak-hih-main-menu ul li a:after {
+          #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
             height: 1px;
@@ -167,26 +167,26 @@ figure {
             -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-          #tak-hih-aside #tak-hih-main-menu ul li a:hover {
+          #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
             color: black; }
-            #tak-hih-aside #tak-hih-main-menu ul li a:hover:after {
+            #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
               -moz-transform: scaleX(1);
               -ms-transform: scaleX(1);
               -o-transform: scaleX(1);
               transform: scaleX(1); }
-        #tak-hih-aside #tak-hih-main-menu ul li.active a {
+        #colorlib-aside #colorlib-main-menu ul li.active a {
           color: #2c98f0; }
-          #tak-hih-aside #tak-hih-main-menu ul li.active a:after {
+          #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
-  #tak-hih-aside .tak-hih-footer {
+  #colorlib-aside .colorlib-footer {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
@@ -194,136 +194,136 @@ figure {
     padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
-      #tak-hih-aside .tak-hih-footer {
+      #colorlib-aside .colorlib-footer {
         position: relative;
         bottom: 0; } }
-    #tak-hih-aside .tak-hih-footer span {
+    #colorlib-aside .colorlib-footer span {
       display: block; }
-    #tak-hih-aside .tak-hih-footer ul {
+    #colorlib-aside .colorlib-footer ul {
       padding: 0;
       margin: 0; }
-      #tak-hih-aside .tak-hih-footer ul li {
+      #colorlib-aside .colorlib-footer ul li {
         padding: 0;
         margin: 0;
         display: inline;
         list-style: none; }
-        #tak-hih-aside .tak-hih-footer ul li a {
+        #colorlib-aside .colorlib-footer ul li a {
           color: rgba(255, 255, 255, 0.3);
           padding: 4px; }
-          #tak-hih-aside .tak-hih-footer ul li a:hover, #tak-hih-aside .tak-hih-footer ul li a:active, #tak-hih-aside .tak-hih-footer ul li a:focus {
+          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
             color: #2c98f0; }
 
-.konten-wrap {
+.container-wrap {
   max-width: 1170px;
   margin: 0 auto; }
 
-#tak-hih-main {
+#colorlib-main {
   width: calc(100% - 300px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    #tak-hih-main {
+    #colorlib-main {
       width: 100%;
       padding: 0 1em; } }
 
-#tak-hih-hero {
+#colorlib-hero {
   min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
   clear: both; }
-  #tak-hih-hero .flexslider {
+  #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
     margin-bottom: 0; }
-    #tak-hih-hero .flexslider .slides {
+    #colorlib-hero .flexslider .slides {
       position: relative;
       overflow: visible; }
-      #tak-hih-hero .flexslider .slides li {
+      #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
         min-height: 400px;
         position: relative; }
-    #tak-hih-hero .flexslider .flex-control-nav {
+    #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
       left: 20px;
       float: left;
       width: auto; }
       @media screen and (max-width: 768px) {
-        #tak-hih-hero .flexslider .flex-control-nav {
+        #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
           top: 100px; } }
-      #tak-hih-hero .flexslider .flex-control-nav li {
+      #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
-        #tak-hih-hero .flexslider .flex-control-nav li a {
+        #colorlib-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
           height: 12px;
           cursor: pointer; }
-          #tak-hih-hero .flexslider .flex-control-nav li a.flex-active {
+          #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
             border: 2px solid #2c98f0; }
-    #tak-hih-hero .flexslider .flex-direction-nav {
+    #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
-    #tak-hih-hero .flexslider .slider-text {
+    #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
       min-height: 500px;
       z-index: 9; }
-      #tak-hih-hero .flexslider .slider-text > .slider-text-inner {
+      #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
         @media screen and (max-width: 768px) {
-          #tak-hih-hero .flexslider .slider-text > .slider-text-inner {
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner h1, #tak-hih-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin-left: 0;
           padding: 0;
           color: black;
           font-family: "Playfair Display", Georgia, serif; }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner h1 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
           line-height: 1.3;
           font-weight: 700; }
           @media screen and (max-width: 768px) {
-            #tak-hih-hero .flexslider .slider-text > .slider-text-inner h1 {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif; }
-          #tak-hih-hero .flexslider .slider-text > .slider-text-inner h2 a {
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(44, 152, 240, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner .heading-section {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
-            #tak-hih-hero .flexslider .slider-text > .slider-text-inner .heading-section {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner s
-.tak-hih-lead {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner s
+.colorlib-lead {
           font-size: 20px;
           color: #fff; }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner p {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
-        #tak-hih-hero .flexslider .slider-text > .slider-text-inner .btn {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
@@ -331,20 +331,20 @@ figure {
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
-          #tak-hih-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 1px solid blue;
             background: transparent !important; }
-            #tak-hih-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
           @media screen and (max-width: 768px) {
-            #tak-hih-hero .flexslider .slider-text > .slider-text-inner .btn {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
 body.offcanvas {
   overflow-x: hidden; }
-  body.offcanvas #tak-hih-aside {
+  body.offcanvas #colorlib-aside {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -354,7 +354,7 @@ body.offcanvas {
     background: #303030;
     z-index: 999;
     position: fixed; }
-  body.offcanvas #tak-hih-main, body.offcanvas .tak-hih-nav-toggle {
+  body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     top: 0;
     -moz-transform: translateX(300px);
     -webkit-transform: translateX(300px);
@@ -362,48 +362,48 @@ body.offcanvas {
     -o-transform: translateX(300px);
     transform: translateX(300px); }
 
-.tak-hih-narrow-content {
+.colorlib-narrow-content {
   padding: 0 2.5em; }
   @media screen and (max-width: 768px) {
-    .tak-hih-narrow-content {
+    .colorlib-narrow-content {
       padding: 0; } }
 
 .no-gutters {
   margin: 0;
   padding: 0; }
 
-.tak-hih-experience,
-.tak-hih-skills,
-.tak-hih-education,
-.tak-hih-blog,
-.tak-hih-work,
-.tak-hih-about,
-.tak-hih-services,
-.tak-hih-contact {
+.colorlib-experience,
+.colorlib-skills,
+.colorlib-education,
+.colorlib-blog,
+.colorlib-work,
+.colorlib-about,
+.colorlib-services,
+.colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .tak-hih-experience,
-    .tak-hih-skills,
-    .tak-hih-education,
-    .tak-hih-blog,
-    .tak-hih-work,
-    .tak-hih-about,
-    .tak-hih-services,
-    .tak-hih-contact {
+    .colorlib-experience,
+    .colorlib-skills,
+    .colorlib-education,
+    .colorlib-blog,
+    .colorlib-work,
+    .colorlib-about,
+    .colorlib-services,
+    .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
-.cicak-img {
+.author-img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
 
-.tak-hih-heading {
+.colorlib-heading {
   font-size: 18px;
   margin-bottom: 4em;
   font-weight: 700;
@@ -411,10 +411,10 @@ body.offcanvas {
   letter-spacing: 5px;
   line-height: 1.8;
   position: relative; }
-  .tak-hih-heading span {
+  .colorlib-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
-    .tak-hih-heading {
+    .colorlib-heading {
       margin-bottom: 3em; } }
 
 .heading-meta {
@@ -808,13 +808,13 @@ body.offcanvas {
     .progress-bar.color-6 span {
       color: #4054b2; }
 
-.tak-hih-feature {
+.colorlib-feature {
   text-align: left;
   width: 100%;
   float: left;
   margin-bottom: 40px;
   position: relative; }
-  .tak-hih-feature .tak-hih-icon {
+  .colorlib-feature .colorlib-icon {
     position: absolute;
     top: 0;
     left: 0;
@@ -827,35 +827,35 @@ body.offcanvas {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px; }
-    .tak-hih-feature .tak-hih-icon i {
+    .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
       color: #2c98f0;
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
-        .tak-hih-feature .tak-hih-icon i {
+        .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
-  .tak-hih-feature .tak-hih-text {
+  .colorlib-feature .colorlib-text {
     padding-left: 120px;
     width: 100%; }
-    .tak-hih-feature .tak-hih-text h2, .tak-hih-feature .tak-hih-text h3 {
+    .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
       padding: 0; }
-    .tak-hih-feature .tak-hih-text h3 {
+    .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase; }
-  .tak-hih-feature.tak-hih-feature-sm .tak-hih-text {
+  .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
-  .tak-hih-feature.tak-hih-feature-sm .tak-hih-icon i {
+  .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
-      .tak-hih-feature.tak-hih-feature-sm .tak-hih-icon i {
+      .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
 
 .blog-entry {
@@ -1025,17 +1025,17 @@ body.offcanvas {
 .btn-load-more {
   width: 100%; }
 
-#tak-hih-counter {
+#colorlib-counter {
   position: relative;
   clear: both;
   margin-bottom: 5em; }
 
-.tak-hih-counters {
+.colorlib-counters {
   padding: 3em 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center; }
-  .tak-hih-counters .overlay {
+  .colorlib-counters .overlay {
     z-index: 0;
     position: absolute;
     bottom: 0;
@@ -1043,13 +1043,13 @@ body.offcanvas {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.4); }
-  .tak-hih-counters .icon {
+  .colorlib-counters .icon {
     width: 100px;
     height: 100px;
     display: table;
     margin: 0 auto;
     margin-bottom: 20px; }
-    .tak-hih-counters .icon i {
+    .colorlib-counters .icon i {
       display: table-cell;
       vertical-align: middle;
       width: 100px;
@@ -1061,9 +1061,9 @@ body.offcanvas {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
-  .tak-hih-counters .counter-wrap {
+  .colorlib-counters .counter-wrap {
     border: 1px solid red !important; }
-  .tak-hih-counters .tak-hih-counter {
+  .colorlib-counters .colorlib-counter {
     font-size: 40px;
     display: block;
     color: white;
@@ -1071,7 +1071,7 @@ body.offcanvas {
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
-  .tak-hih-counters .tak-hih-counter-label {
+  .colorlib-counters .colorlib-counter-label {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     font-size: 14px;
@@ -1079,11 +1079,11 @@ body.offcanvas {
     margin-bottom: 2em;
     display: block; }
 
-.tak-hih-social {
+.colorlib-social {
   padding: 0;
   margin: 0;
   text-align: center; }
-  .tak-hih-social li {
+  .colorlib-social li {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1091,7 +1091,7 @@ body.offcanvas {
     display: inline-block;
     zoom: 1;
     *display: inline; }
-    .tak-hih-social li a {
+    .colorlib-social li a {
       font-size: 22px;
       color: #000;
       padding: 10px;
@@ -1104,11 +1104,11 @@ body.offcanvas {
       -ms-border-radius: 7px;
       border-radius: 7px; }
       @media screen and (max-width: 768px) {
-        .tak-hih-social li a {
+        .colorlib-social li a {
           padding: 10px 8px; } }
-      .tak-hih-social li a:hover {
+      .colorlib-social li a:hover {
         color: #2c98f0; }
-      .tak-hih-social li a:hover, .tak-hih-social li a:active, .tak-hih-social li a:focus {
+      .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
         color: #2c98f0; }
@@ -1120,7 +1120,7 @@ body.offcanvas {
     #map {
       height: 200px; } }
 
-.tak-hih-bg-color {
+.colorlib-bg-color {
   background: #fafafa;
   position: relative; }
 
@@ -1299,17 +1299,17 @@ body.offcanvas {
 #message {
   height: 130px; }
 
-.tak-hih-nav-toggle {
+.colorlib-nav-toggle {
   cursor: pointer;
   text-decoration: none; }
-  .tak-hih-nav-toggle.active i::before, .tak-hih-nav-toggle.active i::after {
+  .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
     background: #000; }
-  .tak-hih-nav-toggle.dark.active i::before, .tak-hih-nav-toggle.dark.active i::after {
+  .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
     background: #000; }
-  .tak-hih-nav-toggle:hover, .tak-hih-nav-toggle:focus, .tak-hih-nav-toggle:active {
+  .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
-  .tak-hih-nav-toggle i {
+  .colorlib-nav-toggle i {
     position: relative;
     display: -moz-inline-stack;
     display: inline-block;
@@ -1325,7 +1325,7 @@ body.offcanvas {
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .tak-hih-nav-toggle i::before, .tak-hih-nav-toggle i::after {
+    .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 30px;
       height: 2px;
@@ -1335,35 +1335,35 @@ body.offcanvas {
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
-  .tak-hih-nav-toggle.dark i {
+  .colorlib-nav-toggle.dark i {
     position: relative;
     color: #000;
     background: #000;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .tak-hih-nav-toggle.dark i::before, .tak-hih-nav-toggle.dark i::after {
+    .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
       background: #000;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
 
-.tak-hih-nav-toggle i::before {
+.colorlib-nav-toggle i::before {
   top: -7px; }
 
-.tak-hih-nav-toggle i::after {
+.colorlib-nav-toggle i::after {
   bottom: -7px; }
 
-.tak-hih-nav-toggle:hover i::before {
+.colorlib-nav-toggle:hover i::before {
   top: -10px; }
 
-.tak-hih-nav-toggle:hover i::after {
+.colorlib-nav-toggle:hover i::after {
   bottom: -10px; }
 
-.tak-hih-nav-toggle.active i {
+.colorlib-nav-toggle.active i {
   background: transparent; }
 
-.tak-hih-nav-toggle.active i::before {
+.colorlib-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1371,7 +1371,7 @@ body.offcanvas {
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-.tak-hih-nav-toggle.active i::after {
+.colorlib-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1379,7 +1379,7 @@ body.offcanvas {
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg); }
 
-.tak-hih-nav-toggle {
+.colorlib-nav-toggle {
   position: fixed;
   left: -5px;
   top: 0px;
@@ -1392,7 +1392,7 @@ body.offcanvas {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    .tak-hih-nav-toggle {
+    .colorlib-nav-toggle {
       opacity: 1;
       visibility: visible; } }
 
