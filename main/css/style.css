@@ -1321,7 +1321,7 @@ body.offcanvas {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
+    background: yellow;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -1329,7 +1329,7 @@ body.offcanvas {
       content: '';
       width: 30px;
       height: 2px;
-      background: #000;
+      background: yellow;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1338,7 +1338,7 @@ body.offcanvas {
   .colorlib-nav-toggle.dark i {
     position: relative;
     color: #000;
-    background: #000;
+    background: yellow;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
