@@ -2,353 +2,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
 
-.sisikiri {
-  height: 100%;
-  margin-left: 10%;
-  width: 20%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #333;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
-.sisikiri a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-.sisikiri a:hover {
-  color: #f1f1f1;
-}
-
-.tengah {
-  margin-left: 30%; /* margin + sisikiri*/    
-  font-size: 28px; 
-  padding: 0px 10px;
-}
-
-/* gambar dari sini*/
-
-.gambarnih {
-  width: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  border-radius: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: center; }
-
-.f1{
-  font-family: monaco;
-  text-align: center;
-}
-.f1:hover{
-  letter-spacing: 2px;
-}
-.f2{
-  font-family: "Quicksand", Arial, sans-serif;
-  text-align: center;
-}
-.f2:active{
-  font-style: italic;
-}
-.dil:hover {
-  color: blue;
-}
-/* slide dari sini*/
-
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.geser {display: none}
-img {vertical-align: middle;}
-
-.konten-slide {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-
-
-.tulusin {
-  font-family: verdana;
-  font-size: 30px;
-  padding: 8px 12px;
-  left: 20px;
-  position: absolute;
-  bottom: 150px;
-  width: 100%;
-  text-align: left;
-}
-.tululin {
-  left: 20px;
-  font-family: verdana;
-  font-size: 20px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 120px;
-  width: 100%;
-  text-align: left;
-}
-
-
-
-.ilang {
-  animation-name: fade;
-  animation-duration: 3.5s;
-}
-
-@keyframes ilang {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
-@keyframes ilang-kiri {
-  from {
-    opacity: 0;
-    /*-webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);*/
-    -webkit-transform: translate3d(-50px, 0, 0);
-    transform: translate3d(-50px, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.ilang-kiri {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-}
-
-/* berbuttonan*/
-
-.tombolku {
-  background-color:transparent;
-  border-radius:10px;
-  border:2px solid #002fbd;
-  display:inline-block;
-  cursor:pointer;
-  font-family:Verdana;
-  font-size:15px;
-  font-style:italic;
-  padding:8px 33px;
-  text-decoration:none;
-  bottom: -200px;
-}
-}
-.tombolku:hover {
-  letter-spacing: 4px;
-  background-color:transparent;
-}
-.tombolku2 {
-  background-color: darkcyan;
-  border-radius:10px;
-  border:2px solid darkcyan;
-  display:inline-block;
-  cursor:pointer;
-  font-family:Verdana;
-  font-size:15px;
-  font-style:italic;
-  padding:8px 33px;
-  text-decoration:none;
-  bottom: -200px;
-  color: white;
-}
-
-.p1{
-  margin-left: 20px;
-  font-family: verdana;
-  font-size: 17px;
-}  
-  
-.p2{
-  margin-left: 20px;
-  font-family: verdana;
-  font-size: 15px;
-}  
-.p1:hover, .p2:hover{
-  letter-spacing: 2px;
-}   
-/* ukuran layar*/
-
-.baris {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.baris:before, .baris:after {
-  content: " ";
-  display: table;
-}
-.baris:after {
-  clear: both;
-}
-
-.animasi {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
- .kolom-3 {
-    width: 25%;
-  }
-
-img::after {
-  content: attr(alt);
-}
-
-/* perkotakan*/
-
-  .kotakan {
-  margin-left: 20px;
-  margin-bottom: 30px;
-  padding: 1.5em;
-  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  border-bottom: 2px solid #2c98f0; }
-  .kotakan .icon2 {
-    display: block;
-    margin-bottom: 20px; }
-    .kotakan .icon2 i {
-      font-size: 30px;
-      color: #2c98f0; }
-  .kotakan p {
-    font-family: "Quicksand", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 500; }
-  .kotakan.color-2 {
-    border-bottom: 2px solid #ec5453; }
-    .kotakan.color-2 .icon2 i {
-      color: #ec5453; }
-  .kotakan.color-3 {
-    border-bottom: 2px solid #9BCF70; }
-    .kotakan.color-3 .icon2 i {
-      color: #9BCF70; }
-  .kotakan.color-4 {
-    border-bottom: 2px solid #a84cb8; }
-    .kotakan.color-4 .icon2 i {
-      color: #a84cb8; }
-  .kotakan.color-5 {
-    border-bottom: 2px solid #2fa499; }
-  .kotakan.color-6 {
-    border-bottom: 2px solid #4054b2; }
-
-.kotakan {
-  margin-bottom: 80px;
-  position: relative;
-  z-index: 0; }
-  @media screen and (max-width: 768px) {
-    .kotakan {
-      margin-bottom: 4em; } }
-  .kotakan .icon {
-    position: absolute;
-    top: -20px;
-    left: 0;
-    right: 0;
-    width: 100px;
-    height: 50px;
-    display: table;
-    margin: 0 auto;
-    background: #2c98f0; }
-    .kotakan .icon:before, .kotakan .icon:after {
-      position: absolute;
-      left: 0;
-      right: 0;
-      content: ''; }
-    .kotakan .icon:before {
-      top: -30px;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 0 50px 30px 50px;
-      border-color: transparent transparent #2c98f0 transparent; }
-    .kotakan .icon:after {
-      bottom: -30px;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 30px 50px 0 50px;
-      border-color: #2c98f0 transparent transparent transparent; }
-    .kotakan .icon i {
-      font-size: 30px;
-      color: #fff;
-      z-index: 1;
-      display: table-cell;
-      vertical-align: middle; }
-  .kotakan .desc {
-    margin-top: 60px; }
-    .kotakan .desc p {
-      font-size: 16px;
-      font-weight: 700;
-      text-transform: uppercase; }
-  .kotakan.color-2 .icon {
-    background: #ec5453; }
-    .kotakan.color-2 .icon:before {
-      border-color: transparent transparent #ec5453 transparent; }
-    .kotakan.color-2 .icon:after {
-      border-color: #ec5453 transparent transparent transparent; }
-  .kotakan.color-3 .icon {
-    background: #9BCF70; }
-    .kotakan.color-3 .icon:before {
-      border-color: transparent transparent #9BCF70 transparent; }
-    .kotakan.color-3 .icon:after {
-      border-color: #9BCF70 transparent transparent transparent; }
-  .kotakan.color-4 .icon {
-    background: #a84cb8; }
-    .kotakan.color-4 .icon:before {
-      border-color: transparent transparent #a84cb8 transparent; }
-    .kotakan.color-4 .icon:after {
-      border-color: #a84cb8 transparent transparent transparent; }
-  .kotakan.color-5 .icon {
-    background: #2fa499; }
-    .kotakan.color-5 .icon:before {
-      border-color: transparent transparent #2fa499 transparent; }
-    .kotakan.color-5 .icon:after {
-      border-color: #2fa499 transparent transparent transparent; }
-  .kotakan.color-6 .icon {
-    background: #4054b2; }
-    .kotakan.color-6 .icon:before {
-      border-color: transparent transparent #4054b2 transparent; }
-    .kotakan.color-6 .icon:after {
-      border-color: #4054b2 transparent transparent transparent; }
-
-/* ukuran layar*/
-@media only screen and (max-width: 300px) {
-  .iling, .iser,.tulusin {font-size: 11px}
-  .sisikiri {padding-top: 15px;}
-  .sisikiri a {font-size: 18px;}
-}
-
-.quotes{
-  margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
- background-color: skyblue;
-}
-</style>
 </head>
 <body>
 
@@ -395,46 +52,46 @@ img::after {
 <p class="p1" style="margin-top: -10px;margin-bottom: 70px;">CHALLENGE PEMROGRAMAN WEB </p>
 
 <div class="baris">
-                <div class="kolom-3 animate-box" data-animate-effect="ilang-kiri">
+                <div class="kolom-3" data-animate-effect="ilang-kiri">
   
                   <a href="../p03/index.html" style="text-decoration:none;">
                   <div class="kotakan color-1 "align="center" >
-                    <p class="icon2" align="center" style="color: skyblue;font-size: 50px;margin: 0px 0px 20px 0px; font-style: bold;">1</p>
-                    <p style="color: black;margin: 5px 0px 5px 0px;font-size: 12px; font-family: arial black; ">Tugas p03</p>
-                    <h5 class="f1" style="color: black;margin: 5px 0px 0px 0px; font-size: 14px;">Tabel sederhana</h5>
+                    <p class="icon2" align="center" style="color: skyblue;font-size: 50px; font-style: bold;">1</p>
+                    <p style="color: black;font-size: 12px; font-family: arial black; ">Tugas p03</p>
+                    <h5 class="f1" style="color: black;font-size: 30%;">Tabel sederhana</h5>
                   
                   </div></a>
                 </div>
 
-                <div class="kolom-3 animate-box" data-animate-effect="ilang-kiri"  style="margin-top: -282px;margin-left:233px ;">
+                <div class="kolom-3" data-animate-effect="ilang-kiri"  style="margin-top: -353px;margin-left:25% ;">
   
                   <a href="../p03css/index.html" style="text-decoration:none;">
                   <div class="kotakan color-2 "align="center" >
-                    <p class="icon2" align="center" style="color: orange;font-size: 50px;margin: 0px 0px 20px 0px; font-style: bold;">2</p>
-                    <p style="color: black;margin: 5px 0px 5px 0px;font-size: 12px; font-family: arial black; ">Tugas p03css</p>
-                    <h5 class="f1" style="color: black;margin: 5px 0px 0px 0px; font-size: 14px;">Tabel dengan css</h5>
+                    <p class="icon2" align="center" style="color: orange;font-size: 50px; font-style: bold;">2</p>
+                    <p style="color: black;font-size: 12px; font-family: arial black; ">Tugas p03css</p>
+                    <h5 class="f1" style="color: black;; font-size: 30%">Tabel dengan css</h5>
                   
                   </div></a>
                 </div>
 
-                <div class="kolom-3 animate-box" data-animate-effect="ilang-kiri"  style="margin-top: -282px;margin-left:470px ;">
+                <div class="kolom-3" data-animate-effect="ilang-kiri"  style="margin-top: -353px;margin-left:50% ;">
   
                   <a href="../p03jquery/index.html" style="text-decoration:none;">
                   <div class="kotakan color-3 "align="center" >
-                    <p class="icon2" align="center" style="color: yellowgreen;font-size: 50px;margin: 0px 0px 20px 0px; font-style: bold;">3</p>
-                    <p style="color: black;margin: 5px 0px 5px 0px;font-size: 12px; font-family: arial black; ">Tugas p03jquery</p>
-                    <h5 class="f1" style="color: black;margin: 5px 0px 0px 0px; font-size: 14px;">Tabel sederhana</h5>
+                    <p class="icon2" align="center" style="color: yellowgreen;font-size: 50px;; font-style: bold;">3</p>
+                    <p style="color: black;font-size: 12px; font-family: arial black; ">Tugas p03jquery</p>
+                    <h5 class="f1" style="color: black; font-size: 30%;">Tabel dengan jquery</h5>
                   
                   </div></a>
                 </div>
 
-                <div class="kolom-3 animate-box" data-animate-effect="ilang-kiri"  style="margin-top: -282px;margin-left:708px ;">
+                <div class="kolom-3" data-animate-effect="ilang-kiri"  style="margin-top: -353px;margin-left:75% ;">
   
                   <a href="#" style="text-decoration:none;">
                   <div class="kotakan color-4"align="center" >
-                    <p class="icon2" align="center" style="color: purple;font-size: 50px;margin: 0px 0px 20px 0px; font-style: bold;">4</p>
-                    <p style="color: black;margin: 5px 0px 5px 0px;font-size: 12px; font-family: arial black; ">Tugas 4</p>
-                    <h5  class="f1" style="color: black;margin: 5px 0px 0px 0px; font-size: 14px;">--</h5>
+                    <p class="icon2" align="center" style="color: purple;font-size: 50px; font-style: bold;">4</p>
+                    <p style="color: black;font-size: 12px; font-family: arial black; ">Tugas 4</p>
+                    <h5  class="f1" style="color: black;font-size: 30%;">--</h5>
                   
                   </div></a>
                 </div>
