@@ -16,6 +16,26 @@ body {
   padding-top: 20px;
 }
 
+.tombah{
+  margin-top: 90%;
+  width: 25%;
+}
+.tombollink {
+  width: 60%;
+  background-color:transparent;
+  border-radius:10px;
+  border:2px solid #fff;
+  display:inline-block;
+  cursor:pointer;
+  font-size: 15px;
+  font-family:Verdana;
+  font-style:italic;
+  padding:8px 33px;
+  text-decoration:none;
+  bottom
+}
+
+
 .sisikiri a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
