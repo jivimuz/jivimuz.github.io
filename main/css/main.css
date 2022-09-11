@@ -57,6 +57,7 @@ body {
 /* gambar dari sini*/
 
 .gambarnih {
+  max-width: 50%;
   width: 150px;
   display: block;
   margin-left: auto;
