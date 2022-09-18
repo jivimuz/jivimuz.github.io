@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "poppins";
+  src: url("Poppins-Medium.otf");
+}
+
+body {
+  font-family: "poppins";
+}
+.pala {
+  font-family: "poppins";
+  font-size: 30px;
+}
+
+legend {
+  color: red;
+}
+
+select:hover {
+  background-color: blanchedalmond;
+}
+
+option:hover {
+  background-color: blanchedalmond;
+}
+
+input:hover {
+  background-color: blanchedalmond;
+}
+
+textarea:hover {
+  background-color: blanchedalmond;
+}
+
+.rule {
+  margin: 0px 0px 0px 1rem;
+  font-size: 25px;
+  color: red;
+}
+
+.image-headers {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-headers img {
+  width: 100%;
+  height: auto;
+}
+
+.rules {
+  padding-bottom: 1rem;
+  color: Orange;
+  margin: auto;
+}
+
+
+.tombolaing {
+    display: inline-block;
+    padding: 10px 51px;
+    border: 0px solid #0e465f;
+    border-radius: 0px;
+    background: #000000;
+    box-shadow: #4b2a61 0px 0px 14px 0px;
+    color: #ff8112;
+    text-decoration: none;
+}
+.tombolaing:hover,
+.tombolaing:active,
+.tombolaing:focus {
+    border: 0px solid #105270;
+    background-color: #fff;
+    text-decoration: none;
+}
+
