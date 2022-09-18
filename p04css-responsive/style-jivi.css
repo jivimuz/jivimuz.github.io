@@ -31,7 +31,17 @@ textarea:hover {
   background-color: blanchedalmond;
 }
 
-.rule {
+body {
+  background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+.bolu {
   margin: 0px 0px 0px 1rem;
   font-size: 25px;
   color: red;
@@ -50,7 +60,7 @@ textarea:hover {
   height: auto;
 }
 
-.rules {
+.boled {
   padding-bottom: 1rem;
   color: Orange;
   margin: auto;
