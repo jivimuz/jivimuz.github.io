@@ -80,7 +80,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #303030;
+  background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -291,7 +291,7 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          margin-left: 0;
+          margin: 0;
           padding: 0;
           color: black;
           font-family: "Playfair Display", Georgia, serif; }
@@ -333,7 +333,7 @@ figure {
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
-            border: 1px solid blue;
+            border: 1px solid #000;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
@@ -351,7 +351,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #303030;
+    background: #f2f3f7;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -439,7 +439,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: #9BCF70; }
+  background: #f9bf3f; }
   .hire h2 {
     line-height: 1.5; }
   .hire .btn-hire {
@@ -493,7 +493,7 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #303030;
+  background: #f2f3f7;
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
@@ -525,7 +525,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #303030;
+  background: #f2f3f7;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -551,9 +551,9 @@ body.offcanvas {
   -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px #303030;
-  -webkit-box-shadow: 0 0 0 5px #303030;
-  box-shadow: 0 0 0 5px #303030;
+  -moz-box-shadow: 0 0 0 5px #f2f3f7;
+  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
+  box-shadow: 0 0 0 5px #f2f3f7;
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
@@ -561,7 +561,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: #ec5453; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #9BCF70; }
+    background: #f9bf3f; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
     background: #a84cb8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
@@ -574,7 +574,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #303030;
+  background: #f2f3f7;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -589,7 +589,7 @@ body.offcanvas {
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent #303030 transparent transparent;
+  border-color: transparent #f2f3f7 transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
@@ -637,9 +637,9 @@ body.offcanvas {
     .services.color-2 .icon2 i {
       color: #ec5453; }
   .services.color-3 {
-    border-bottom: 2px solid #9BCF70; }
+    border-bottom: 2px solid #f9bf3f; }
     .services.color-3 .icon2 i {
-      color: #9BCF70; }
+      color: #f9bf3f; }
   .services.color-4 {
     border-bottom: 2px solid #a84cb8; }
     .services.color-4 .icon2 i {
@@ -704,11 +704,11 @@ body.offcanvas {
     .services.color-2 .icon:after {
       border-color: #ec5453 transparent transparent transparent; }
   .services.color-3 .icon {
-    background: #9BCF70; }
+    background: #f9bf3f; }
     .services.color-3 .icon:before {
-      border-color: transparent transparent #9BCF70 transparent; }
+      border-color: transparent transparent #f9bf3f transparent; }
     .services.color-3 .icon:after {
-      border-color: #9BCF70 transparent transparent transparent; }
+      border-color: #f9bf3f transparent transparent transparent; }
   .services.color-4 .icon {
     background: #a84cb8; }
     .services.color-4 .icon:before {
@@ -737,7 +737,7 @@ body.offcanvas {
   height: 6px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #303030;
+  background: #f2f3f7;
   overflow: visible; }
 
 .progress-bar {
@@ -784,11 +784,11 @@ body.offcanvas {
     .progress-bar.color-2 span {
       color: #ec5453; }
   .progress-bar.color-3 {
-    background: #9BCF70; }
+    background: #f9bf3f; }
     .progress-bar.color-3:after {
-      background: #9BCF70; }
+      background: #f9bf3f; }
     .progress-bar.color-3 span {
-      color: #9BCF70; }
+      color: #f9bf3f; }
   .progress-bar.color-4 {
     background: #a84cb8; }
     .progress-bar.color-4:after {
@@ -822,7 +822,7 @@ body.offcanvas {
     height: 100px;
     display: table;
     text-align: center;
-    background: #303030;
+    background: #f2f3f7;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1278,7 +1278,7 @@ body.offcanvas {
   box-shadow: none;
   background: transparent;
   border: transparent;
-  background: #303030;
+  background: #f2f3f7;
   height: 54px;
   font-size: 16px;
   font-weight: 400;
@@ -1321,7 +1321,7 @@ body.offcanvas {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: yellow;
+    background: #000;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -1329,7 +1329,7 @@ body.offcanvas {
       content: '';
       width: 30px;
       height: 2px;
-      background: yellow;
+      background: #000;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1338,7 +1338,7 @@ body.offcanvas {
   .colorlib-nav-toggle.dark i {
     position: relative;
     color: #000;
-    background: yellow;
+    background: #000;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }

@@ -1,9 +1,13 @@
-#colorlib-page {
+#menu-kiri {
   width: 100%;
   overflow: hidden;
   position: relative; }
 
-  #colorlib-aside {
+.menu-satu {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+ #menu-kiri-buah {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
@@ -11,12 +15,12 @@
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #303030;
+  background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    #colorlib-aside {
+    #menu-kiri-buah {
       width: 300px;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
@@ -24,7 +28,7 @@
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em; } }
-  #colorlib-aside .author-img {
+  #menu-kiri-buah .author-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -33,36 +37,36 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-  #colorlib-aside .position {
+  #menu-kiri-buah .posisi {
     display: block;
     margin-bottom: 2em;
     font-size: 12px;
     text-transform: uppercase; }
-  #colorlib-aside #colorlib-logo {
+  #menu-kiri-buah #menuku-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
-    #colorlib-aside #colorlib-logo a {
+    #menu-kiri-buah #menuku-logo a {
       display: block;
       text-align: center;
       color: #000;
       padding-right: .3em; }
-  #colorlib-aside #colorlib-main-menu {
+  #menu-kiri-buah #menuku-main-menu {
     display: block;
     width: 100%; }
-    #colorlib-aside #colorlib-main-menu .collapse {
+    #menu-kiri-buah #menuku-main-menu .dempet {
       display: block !important; }
-    #colorlib-aside #colorlib-main-menu ul {
+    #menu-kiri-buah #menuku-main-menu ul {
       text-align: center;
       margin: 0;
       padding: 0; }
       @media screen and (max-width: 768px) {
-        #colorlib-aside #colorlib-main-menu ul {
+        #menu-kiri-buah #menuku-main-menu ul {
           margin: 0 0 2em 0; } }
-      #colorlib-aside #colorlib-main-menu ul li {
+      #menu-kiri-buah #menuku-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
@@ -70,7 +74,7 @@
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
-        #colorlib-aside #colorlib-main-menu ul li a {
+        #menu-kiri-buah #menuku-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
           position: relative;
@@ -79,7 +83,7 @@
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
-          #colorlib-aside #colorlib-main-menu ul li a:after {
+          #menu-kiri-buah #menuku-main-menu ul li a:after {
             content: "";
             position: absolute;
             height: 1px;
@@ -98,55 +102,33 @@
             -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-          #colorlib-aside #colorlib-main-menu ul li a:hover {
+          #menu-kiri-buah #menuku-main-menu ul li a:hover {
             text-decoration: none;
             color: black; }
-            #colorlib-aside #colorlib-main-menu ul li a:hover:after {
+            #menu-kiri-buah #menuku-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
               -moz-transform: scaleX(1);
               -ms-transform: scaleX(1);
               -o-transform: scaleX(1);
               transform: scaleX(1); }
-        #colorlib-aside #colorlib-main-menu ul li.active a {
+        #menu-kiri-buah #menuku-main-menu ul li.active a {
           color: #2c98f0; }
-          #colorlib-aside #colorlib-main-menu ul li.active a:after {
+          #menu-kiri-buah #menuku-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
-            transform: scaleX(1); }
-  #colorlib-aside .colorlib-footer {
-    font-size: 15px;
-    text-align: center;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
-    width: 100%; }
-    @media screen and (max-width: 768px) {
-      #colorlib-aside .colorlib-footer {
-        position: relative;
-        bottom: 0; } }
-    #colorlib-aside .colorlib-footer span {
-      display: block; }
-    #colorlib-aside .colorlib-footer ul {
-      padding: 0;
-      margin: 0; }
-      #colorlib-aside .colorlib-footer ul li {
-        padding: 0;
-        margin: 0;
-        display: inline;
-        list-style: none; }
-        #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
-          padding: 4px; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
-            text-decoration: none;
-            outline: none;
-            color: #2c98f0; }
+            transform: scaleX(1); }} 
 
+.foto-saya {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
 
-.container-wrap {
-  max-width: 1170px;
-  margin: 0 auto; }
+.tengah2 {
+  text-align: center;
+}
+
