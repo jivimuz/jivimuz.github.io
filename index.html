@@ -74,7 +74,21 @@ a:hover{
                             <li><i class="fas fa-book"></i> <br> Read</li>
                             <li><i class="fas fa-pen"></i> <br> Design</li>
                             <li><i class="fas fa-code"></i> <br> learn</li>
+                        </ul><div id="hilang3">
+                         <h4 class="ltitle">Latest Project</h4>
+                        <ul class="no-margin">
+                                    <div class="col-sm-12">
+                                        <a href="http://card.bmtalishlah.com/" target="_blank" class="btn btn-primary"> Digital Card Member </a>
+                                    </div><br>
+                                    <div class="col-sm-12">
+                                        <a href="http://divbis.bmtalishlah.com/" target="_blank" class="btn btn-primary">Letter Archives Apps</a>
+                                    </div><br>
+                                     <div class="col-sm-12">
+                                        <a href="https://aap.bmtalishlah.com/" target="_blank" class="btn btn-primary">Financing Notes App</a>
+                                    </div>
+                          
                         </ul>
+                        </div>
                         <div style="margin-top: 200px">&nbsp;</div>
                     </div>
                 </div>
@@ -406,6 +420,7 @@ a:hover{
   $(document).on('click', '#download-cv', function(){
         document.getElementById('hilang').hidden = true;
         document.getElementById('hilang2').hidden = true;
+        document.getElementById('hilang3').hidden = true;
         window.print();
     setInterval( () => {
         location.reload();
