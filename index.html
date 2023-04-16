@@ -16,7 +16,9 @@
 a:hover{
   text-shadow: 2px 2px black;
 }    
-
+.modal-body{
+    font-size: 12px;
+}
 .progress:hover{
     background-color: skyblue;
 }
@@ -98,13 +100,7 @@ a:hover{
                          <h4 class="ltitle">Latest Project</h4>
                         <ul class="no-margin">
                                     <div class="col-sm-12">
-                                        <a href="http://card.bmtalishlah.com/" target="_blank" class="btn btn-primary"> Digital Card Member </a>
-                                    </div><br>
-                                    <div class="col-sm-12">
-                                        <a href="http://divbis.bmtalishlah.com/" target="_blank" class="btn btn-primary">Letter Archives Apps</a>
-                                    </div><br>
-                                     <div class="col-sm-12">
-                                        <a href="https://aap.bmtalishlah.com/" target="_blank" class="btn btn-primary">Financing Notes App</a>
+                                        <a h target="_blank" class="btn btn-primary project"> Show </a>
                                     </div>
                           
                         </ul>
@@ -515,11 +511,39 @@ a:hover{
            
         </div>
    </div>
-
+</div>
    
+</div>
+</div>
+<!------------------------------------------ Modal 4 ----------------------------------------->
+<div id="projectModal" class="modal fade">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+   </div>
+   <br>
 
+    <h5 class=" modal-title" align="center" style="color:grey;"> Latest Project List:</h5>
+
+   <div class="modal-body" id="formProject">
+     <div class="row col-md-12 row">
+            <div class="alert alert-primary col-md-12">1. Digital Card Member <span class="col-sm-12"></span><a href="http://card.bmtalishlah.com/" target="_blank" class="btn btn-sm btn-default pull-right"> Show</a></div>
+
+            <div class="alert alert-primary col-md-12">2. Letter Archives Apps <span class="col-sm-12"></span><a href="http://divbis.bmtalishlah.com/" target="_blank" class="btn btn-sm btn-default pull-right"> Show</a></div>
+
+            <div class="alert alert-primary col-md-12">3. Financing Notes App <span class="col-sm-12"></span><a href="http://aap.bmtalishlah.com/" target="_blank" class="btn btn-sm btn-default pull-right"> Show</a></div>
+
+            <div class="alert alert-primary col-md-12">4. JivFilm (React + Api) <span class="col-sm-12"></span><a href="http://jivfilm.antariks.com/" target="_blank" class="btn btn-sm btn-default pull-right"> Show</a></div>
+
+            <div class="alert alert-primary col-md-12"> More... <span class="col-sm-12"></span></div>
+
+        </div>
+   </div>
+</div>
+   
     
-
+</div>
                       
 <div class=" row text-right">
 
@@ -537,23 +561,23 @@ a:hover{
 <script>
     //Begin Tampil Form jivi
   $(document).on('click', '.jivi', function(){
-  var idkua = $(this).attr("id");
-  
     $('#jiviModal').modal('show');
    
  });
       //Begin Tampil Form work 1
   $(document).on('click', '.1work', function(){
-  var idkua = $(this).attr("id");
-  
     $('#1workModal').modal('show');
    
  });
       //Begin Tampil Form work2
   $(document).on('click', '.2work', function(){
-  var idkua = $(this).attr("id");
-  
     $('#2workModal').modal('show');
+   
+ });
+
+       //Begin Tampil Form Project
+  $(document).on('click', '.project', function(){
+    $('#projectModal').modal('show');
    
  });
     
