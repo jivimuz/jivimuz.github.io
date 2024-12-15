@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CV Jivi MG</title>
+    <title>Jivi Muzaqi Guntur</title>
 
     <link rel="shortcut icon" href="assets/images/fav.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -34,8 +34,8 @@
                     <div class="left-side">
                         <div class="profile-info">
                             <img style="border-radius: 50px 50px;" src="assets/images/Blue BG Jivi2.jpg" alt="">
-                            <span>&nbsp;</span>
-                            <h3>Jivi Muzaqi Guntur</h3>
+                            <h3 style="margin-top: 5px;">Jivi Muzaqi Guntur</h3>
+                            <small >Full Stack Developer</small>
                         </div>
                         <h4 class="ltitle">Contact</h4>
                         <div class="contact-box pb0">
@@ -70,7 +70,7 @@
                                 Jl. S.A Tirtayasa No.123 Kedawung, Cirebon, West Java, Indonesia
                             </div>
                         </div>
-                        <div class="contact-box pb0">
+                        <!-- <div class="contact-box pb0">
                             <a href="https://antariks.com" style="color: white">
                                 <div class="icon">
                                     <i class="fas fa-globe-americas"></i>
@@ -80,9 +80,8 @@
                                 - Antariks.com<br>
                                 - jivimuz.github.io
                             </div>
-                        </div>
+                        </div> -->
                         <h4 class="ltitle">More Contact</h4>
-
                         <ul class="row social-link no-margin">
                             <li></li>
                             <li><a href="https://web.facebook.com/Jivimuz" target="_blank" style="color: white;"><i
@@ -91,6 +90,8 @@
                                         class="fab fa-instagram"></i><a></li>
                             <li><a href="https://wa.me/6282120741970" target="_blank" style="color: white;"><i
                                         class="fab fa-whatsapp"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/jivimuz/" target="_blank" style="color: white;"><i
+                                            class="fab fa-linkedin"></i></a></li>
 
                         </ul>
 
@@ -104,15 +105,15 @@
                             <li><i class="fas fa-code"></i> <br> learn</li>
                         </ul>
                         <div id="hilang3">
-                            <h4 class="ltitle">Latest Project</h4>
+                            <h4 class="ltitle">Portfolio</h4>
                             <ul class="no-margin row">
                                 <div class="col-6">
-                                    <a h target="_blank" class="btn btn-primary project"><i class="fa fa-eye"></i> Live
+                                    <a target="_blank" class="btn btn-primary " id="project"><i class="fa fa-eye"></i> Summary
                                     </a>
                                 </div>
                                 <div class="col-6">
                                     <a href="https://github.com/jivimuz" target="_blank"
-                                        class="btn btn-primary project"><i class="fab fa-github"></i> Github </a>
+                                        class="btn btn-primary"><i class="fab fa-github"></i> Github </a>
                                 </div>
                             </ul>
                         </div>
@@ -191,10 +192,10 @@
                                     </li>
                                     <li style="cursor: pointer;">
                                         <!-- <a id="download-cv"><i class="fas fa-cloud-download-alt"></i> Get Resume/CV</a> -->
-                                        <a href="https://drive.google.com/file/d/1US4Vg24vFcgKK2bqRcesBe2VbyCnvk3u/view?usp=drive_link" target="_blank"><i class="fas fa-cloud-download-alt"></i> Get Resume/CV</a>
+                                        <a id="cvAts" ><i class="fas fa-cloud-download-alt"></i> Get Resume/CV</a>
                                     </li>
                                     <li style="cursor: pointer;">
-                                        <a target="_blank" href="https://wa.me/6282120741970"><i class="fas fa-whatsapp"></i> Whatsapp</a>
+                                        <a target="_blank" href="https://wa.me/6282120741970"><i class="fab fa-whatsapp"></i> Whatsapp</a>
                                     </li>
                                 </ul>
                             </div>
@@ -202,33 +203,33 @@
 
                         <h2 class="rit-titl"><i class="fas fa-briefcase"></i> Work Experience</h2>
                         <div class="work-exp">
-                            <h6>Design Graphic Intern <a id="1work" class="1work">
+                            <h6>Design Graphic Intern <a onclick="showModal(1)">
                                     <font style="color: midnightblue;cursor: pointer;">[?]</font>
                                 </a><span>Feb 2019 - Apr 2019</span></h6>
                             <i>At Mizan Sumber</i>
 
                         </div>
                         <div class="work-exp">
-                            <h6>IT Officer<a id="2work" class="2work">
+                            <h6>IT Officer<a onclick="showModal(2)">
                                     <font style="color: midnightblue;cursor: pointer;">[?]</font>
                                 </a><span>Feb 2020 - Mar 2023</span></h6>
                             <i>At KSPPS Al Ishlah Mitra Sejahtera (AIMS)</i>
                         </div>
                         <div class="work-exp">
-                            <h6>Full Stack Developer <a id="" class="">
+                            <h6>Full Stack Developer <a onclick="showModal(3)">
                                     <font style="color: midnightblue;cursor: pointer;">[?]</font>
                                 </a><span>May 2023 - Des 2024</span></h6>
                             <i>At Proqua Consulting</i>
 
                         </div>
                         <div class="work-exp">
-                            <h6>System Analyst <a id="" class="">
+                            <h6>System Analyst <a onclick="showModal(4)">
                                     <font style="color: midnightblue;cursor: pointer;">[?]</font>
                                 </a><span>Jan 2024 - Jul 2024</span></h6>
                             <i>At Lee Yin Group</i>
                         </div>
                         <div class="work-exp">
-                            <h6>Senior Developer <a id="" class="">
+                            <h6>Senior Developer <a onclick="showModal(5)">
                                     <font style="color: midnightblue;cursor: pointer;">[?]</font>
                                 </a><span>Jul 2024 - Now</span></h6>
                             <i>At Zitechnosoft</i>
@@ -239,11 +240,11 @@
                             <ul class="row no-margin">
                                 <li class="col-md-6"><span>2017 - 2020</span> <br>
                                     SMK Yadika Kedawung Cirebon<br>
-                                    <span>(Successfully graduated in Multimedia Major)</span>
+                                    <span>(Multimedia)</span>
                                 </li>
-                                <li class="col-md-6"><span>2021 - Now</span> <br>
+                                <li class="col-md-6"><span>2021 - 2025</span> <br>
                                     STMIK IKMI Cirebon<br>
-                                    <span>(On-going in the Department of Informatics Engineering)</span>
+                                    <span>(Informatics Engineering)</span>
                                 </li>
 
                             </ul>
@@ -251,215 +252,46 @@
 
                         <h2 class="rit-titl"><i class="fas fa-users-cog"></i> Skills</h2>
                         <div class="profess-cover row no-margin">
-                            <div class="col-md-6">
-                                <div class=" prog-row row">
-                                    <div class="col-sm-6">
-                                        HTML
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 70%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-md-12">
+                                <table style="width: 100%; border-collapse: collapse; background-color: transparent; font-size: 14px;">
+                                    <tr>
+                                        <td>● HTML</td>
+                                        <td>● Javascript</td>
+                                        <td>● PHP</td>
+                                    </tr>
+                                    <tr>
+                                        <td>● Laravel</td>
+                                        <td>● CodeIgniter 3 & 4</td>
+                                        <td>● Yii2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>● ReactJS</td>
+                                        <td>● React Native</td>
+                                        <td>● Rest API</td>
+                                    </tr>
+                                    <tr>
+                                        <td>● Microservices</td>
+                                        <td>● ExpressJS</td>
+                                        <td>● NodeJS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>● CMS</td>
+                                        <td>● GIT</td>
+                                        <td>● Python Modelling</td>
+                                    </tr>
+                                    <tr>
+                                        <td>● PM ( Jira, Trello, Clickup, etc )</td>
+                                        <td>● Postmant</td>
+                                        <td>● RapidMiner</td>
+                                    </tr>
+                                  
+                                </table>
                             </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        Javascript
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 55%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        PHP 
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 80%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        Laravel
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 75%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        CodeIgniter 3 & 4
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 65%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        Yii2
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 60%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        ReactJS
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 60%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        React Native
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 70%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        Rest API
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 75%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        CMS
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 70%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        GIT
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 80%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        Python
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 55%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <!-- <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        Linux
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div><br>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row prog-row">
-                                    <div class="col-sm-6">
-                                        B&W Box Test
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div><br>
-                            </div> -->
-                            <div class="col-md-12" id="hilang2">
-                                <div class="row prog-row">
-                                    <div class="col-sm-3">
-                                        Learn Something New
-                                    </div>
-                                    <div class="col-sm-9">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 100%"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div><br>
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-
-
+                            
                         </div>
                     </div>
                     <br><br>
-                    <h6 align="right">Jivi MG <i class="fa fa-copyright"></i> 2023</h6>
+                    <h6 align="right">Jivi MG <i class="fa fa-copyright"></i> 2024</h6>
                 </div>
             </div>
         </div>
@@ -497,12 +329,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
             <div class=" row text-right">
 
                 <div class="col-md-12">
@@ -515,29 +341,18 @@
     </div>
 </div>
 <!------------------------------------------ Modal 2 ----------------------------------------->
-<div id="1workModal" class="modal fade">
+<div id="workModal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <br>
+            <h6 class=" modal-title" align="center" style="color:grey;"> What i usually do at <span id="jtitle"></span>:</h6>
 
-            <h5 class=" modal-title" align="center" style="color:grey;"> What i usually do at Mizan Sumber:</h5>
-
-            <div class="modal-body" id="form_1work">
-                <div class="row col-md-12 row">
-                    1. Create brochures, flyers, banner, etc. according to customer orders<br><br>
-                    2. Edit Photos using Photoshop<br><br>
-                    3. Keep journals and daily reports<br><br>
-
+            <div class="modal-body" >
+                <div id="jwork">
                 </div>
-
-
-
-
-
-
                 <div class=" row text-right">
 
                     <div class="col-md-12">
@@ -551,70 +366,19 @@
     </div>
 </div>
 
-<!------------------------------------------ Modal 2 ----------------------------------------->
-<div id="2workModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <br>
-
-            <h5 class=" modal-title" align="center" style="color:grey;"> What i usually do at KSPPS AIMS:</h5>
-
-            <div class="modal-body" id="form_2work">
-                <div class="row col-md-12 row">
-                    1. Create digital promotions in the form of brochures, flyers, videos, etc<br><br>
-                    2. Manage Corporate Networks using Mikrotik<br><br>
-                    3. Create WebApps based on HTML, Javascript and Php<br><br>
-                    4. Manage CMS-based Websites<br><br>
-                    5. Manage BI Checking<br><br>
-                    6. Manage Software related to company needs<br><br>
-                    7. Manage Office Hardware / Electronics<br><br>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<!------------------------------------------ Modal 3 ----------------------------------------->
-<div id="3workModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <br>
-
-            <h5 class=" modal-title" align="center" style="color:grey;"> What i usually do at Proqua Consulting:</h5>
-
-            <div class="modal-body" id="form_2work">
-                <div class="row col-md-12 row text-center">
-                    <br>
-                    ~~ Ongoing as a Web Developer ~~
-                    <br>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
 <!------------------------------------------ Modal 4 ----------------------------------------->
 <div id="projectModal" class="modal fade">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <br>
 
-            <h5 class=" modal-title" align="center" style="color:grey;">Partial Project List:</h5>
+            <!-- <h5 class=" modal-title" align="center" style="color:grey;">Partial Project List:</h5> -->
 
             <div class="modal-body" id="formProject">
-                <div class="row col-md-12 row">
+                <!-- <div class="row col-md-12 row">
                     <div class="alert alert-primary col-md-12">- Hospital Management System <span
                         class="col-sm-12"></span><a href="https://dev.simrsproqua.cloud/" target="_blank"
                         class="btn btn-sm btn-default pull-right"> Show</a></div>
@@ -639,7 +403,7 @@
                             class="col-sm-12"></span><a href="http://jivfilm.antariks.com/" target="_blank"
                             class="btn btn-sm btn-default pull-right"> Show</a></div>
 
-                    <div class="alert alert-primary col-md-12">Chat for More... <span class="col-sm-12"></span></div>
+                    <div class="alert alert-primary col-md-12">Chat for More... <span class="col-sm-12"></span></div> -->
 
                 </div>
             </div>
@@ -669,38 +433,84 @@
 
     });
     //Begin Tampil Form work 1
-    $(document).on('click', '.1work', function () {
-        $('#1workModal').modal('show');
+    function showModal(id){
+        var title = '';
+        var form = '';
 
-    });
-    //Begin Tampil Form work2
-    $(document).on('click', '.2work', function () {
-        $('#2workModal').modal('show');
+        if(id == 1){
+            title = 'Mizan Sumber'
+            form = ` <div class="row col-md-12 row">
+                    ● Design by customer orders<br>
+                    ● Layout Eding<br>
+                    ● Writing journals and daily reports<br>
 
-    });
-    $(document).on('click', '.3work', function () {
-        $('#3workModal').modal('show');
+                </div>`
+        }else if(id == 2){
+            title = 'KSPPS Al Ishlah Mitra Sejahtera'
+            form = ` <div class="row col-md-12 row">
+● Create webapps based on PHP (CodeIgniter & Laravel). <br>
+● Manage CMS-based Websites.<br>
+● Manage Software and update related to company needs.<br>
+● Manage Corporate Networks using Mikrotik.<br>
+● Manage BI Checking.<br>
+● Manage Office Hardware / Electronics.<br>
+                </div>`
+        } else if(id == 3){
+            title = 'Proqua Consulting'
+            form = ` <div class="row col-md-12 row">
+● Working on front-end tasks (PHP + JQuery for Web, React Native for Mobile).<br>
+● Working on back-end tasks (Code Igniter 4).<br>
+● Improve Code.<br>
+● Meet clients.<br>
+                </div>`
+        } else if(id == 4){
+            title = 'Lee Yin Group'
+            form = ` <div class="row col-md-12 row">
+● Make Database Structure<br>
+● Make Standardisation for clean code<br>
+● Coding Frontend & Backend Tasks<br>
+● MES System<br>
+● Sage ERP<br>
+                </div>`
+        } else if(id == 5){
+            title = 'Lee Yin Group'
+            form = ` <div class="row col-md-12 row">
+● Full Stack Development ERP, MES and Ceisa H2H (Indonesia Customs)<br>
+● Implementation and training onsite<br>
+                </div>`
+        }
 
-    });
+
+        $('#jtitle').html(title);
+        $('#jwork').html(form);
+        $('#workModal').modal('show');
+    }
+   
 
     //Begin Tampil Form Project
-    $(document).on('click', '.project', function () {
+    $('#project').on('click',  function () {
+        $('#formProject').html(` <iframe src="https://drive.google.com/file/d/1e2vkK08Ey_pD4TvKho7nRRXpPbUQ5zjf/preview" width="100%" height="600px" allow="autoplay"></iframe>`)
         $('#projectModal').modal('show');
+    });
 
+     //Begin Tampil CV
+     $('#cvAts').on('click',  function () {
+        $('#formProject').html(` <iframe src="https://drive.google.com/file/d/1US4Vg24vFcgKK2bqRcesBe2VbyCnvk3u/preview" width="100%" height="600px" allow="autoplay"></iframe>`)
+        $('#projectModal').modal('show');
     });
 
     //print cv
 
-    $(document).on('click', '#download-cv', function () {
-        document.getElementById('hilang').hidden = true;
-        document.getElementById('hilang2').hidden = true;
-        document.getElementById('hilang3').hidden = true;
-        window.print();
-        setInterval(() => {
-            location.reload();
-        }, 1000);
+    // $(document).on('click', '#download-cv', function () {
+    //     document.getElementById('hilang').hidden = true;
+    //     document.getElementById('hilang2').hidden = true;
+    //     document.getElementById('hilang3').hidden = true;
+    //     window.print();
+    //     setInterval(() => {
+    //         location.reload();
+    //     }, 1000);
 
-    });
+    // });
 
 </script>
 <script>
