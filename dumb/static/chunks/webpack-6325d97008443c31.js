@@ -25,23 +25,19 @@
           return;
         }
         for (var u = 1 / 0, i = 0; i < e.length; i++) {
-          for (var [o, n, a] = e[i], l = !0, d = 0; d < o.length; d++)
-            (!1 & a || u >= a) && Object.keys(r.O).every((e) => r.O[e](o[d]))
-              ? o.splice(d--, 1)
+          for (var [o, n, a] = e[i], l = !0, c = 0; c < o.length; c++)
+            (!1 & a || u >= a) && Object.keys(r.O).every((e) => r.O[e](o[c]))
+              ? o.splice(c--, 1)
               : ((l = !1), a < u && (u = a));
           if (l) {
             e.splice(i--, 1);
-            var c = n();
-            void 0 !== c && (t = c);
+            var d = n();
+            void 0 !== d && (t = d);
           }
         }
         return t;
       };
     })(),
-    (r.n = (e) => {
-      var t = e && e.__esModule ? () => e.default : () => e;
-      return r.d(t, { a: t }), t;
-    }),
     (() => {
       var e,
         t = Object.getPrototypeOf
@@ -102,11 +98,11 @@
         if (e[o]) return void e[o].push(n);
         if (void 0 !== a)
           for (
-            var u, l, d = document.getElementsByTagName("script"), c = 0;
-            c < d.length;
-            c++
+            var u, l, c = document.getElementsByTagName("script"), d = 0;
+            d < c.length;
+            d++
           ) {
-            var s = d[c];
+            var s = c[d];
             if (
               s.getAttribute("src") == o ||
               s.getAttribute("data-webpack") == t + a
@@ -161,7 +157,7 @@
       );
     })(),
     (r.tu = (e) => r.tt().createScriptURL(e)),
-    (r.p = "../dumb/"),
+    (r.p = "/dumb/"),
     (() => {
       var e = { 68: 0, 360: 0 };
       (r.f.j = (t, o) => {
@@ -198,14 +194,14 @@
           var n,
             a,
             [i, u, l] = o,
-            d = 0;
+            c = 0;
           if (i.some((t) => 0 !== e[t])) {
             for (n in u) r.o(u, n) && (r.m[n] = u[n]);
-            if (l) var c = l(r);
+            if (l) var d = l(r);
           }
-          for (t && t(o); d < i.length; d++)
-            (a = i[d]), r.o(e, a) && e[a] && e[a][0](), (e[a] = 0);
-          return r.O(c);
+          for (t && t(o); c < i.length; c++)
+            (a = i[c]), r.o(e, a) && e[a] && e[a][0](), (e[a] = 0);
+          return r.O(d);
         },
         o = (self.webpackChunk_N_E = self.webpackChunk_N_E || []);
       o.forEach(t.bind(null, 0)), (o.push = t.bind(null, o.push.bind(o)));
