@@ -993,7 +993,7 @@
           c.pathname.endsWith(".json")
         ) {
           let e = c.pathname
-            .replace(/^\/dumb\/data\//, "")
+            .replace(/^\/_next\/data\//, "")
             .replace(/\.json$/, "")
             .split("/");
           (c.buildId = e[0]),
@@ -5585,7 +5585,7 @@
         U = "private-next-rsc-action-encryption",
         F = "private-next-rsc-action-client-wrapper",
         B =
-          "You can not have a '_next' folder inside of your public folder. This conflicts with the internal '/dumb' route. https://nextjs.org/docs/messages/public-next-folder-conflict",
+          "You can not have a '_next' folder inside of your public folder. This conflicts with the internal '/_next' route. https://nextjs.org/docs/messages/public-next-folder-conflict",
         k =
           "You can not use getInitialProps with getStaticProps. To use SSG, please remove your getInitialProps",
         H =
