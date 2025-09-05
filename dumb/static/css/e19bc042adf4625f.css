@@ -1642,6 +1642,13 @@ hr .melt {
 .card-product:hover .card-product-image img {
   transform: translateY(-50%) rotate(1turn);
 }
+@media screen and(max-width: 768px) {
+  .mobileGap {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
